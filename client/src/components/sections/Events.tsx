@@ -47,8 +47,8 @@ export function Events() {
               Join us for our upcoming community gatherings, workshops, and important academic dates.
             </p>
           </div>
-          <Button variant="outline" className="bg-transparent border-white/30 text-white hover:bg-white hover:text-primary w-fit">
-            View Full Calendar
+          <Button variant="outline" className="bg-transparent border-white/30 text-white hover:bg-white hover:text-primary w-fit" asChild>
+            <a href="#contact">View Full Calendar</a>
           </Button>
         </div>
 
@@ -79,8 +79,8 @@ export function Events() {
                   </div>
                 </div>
 
-                <Button className="w-full bg-white text-primary hover:bg-gray-100 font-semibold">
-                  RSVP / Details
+                <Button className="w-full bg-white text-primary hover:bg-gray-100 font-semibold" asChild>
+                  <a href="#contact">RSVP / Details</a>
                 </Button>
               </CardContent>
             </Card>

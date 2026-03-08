@@ -77,8 +77,8 @@ export function Services() {
                   </div>
                 </div>
                 
-                <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold w-fit">
-                  Register for Trailblazer
+                <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold w-fit" asChild>
+                  <a href="#contact">Register for Trailblazer</a>
                 </Button>
               </div>
               
@@ -109,8 +109,8 @@ export function Services() {
                 </CardDescription>
               </CardContent>
               <CardFooter>
-                <Button variant="ghost" className="text-primary hover:text-primary hover:bg-primary/5 p-0 group-hover:underline">
-                  View Details &rarr;
+                <Button variant="ghost" className="text-primary hover:text-primary hover:bg-primary/5 p-0 group-hover:underline" asChild>
+                  <a href="#contact">View Details &rarr;</a>
                 </Button>
               </CardFooter>
             </Card>
