@@ -1,0 +1,48 @@
+Create a stunning, modern landing page for Al Rayyan Academy, a school specialized in Arabic Language and Islamic Studies. The page must be in English and fully featured, production-ready, with high-quality, responsive design that works flawlessly on desktop, tablet, and mobile. Avoid any cookie-cutter templates - make it beautiful, unique, and visually captivating by incorporating elements of Arabic and Islamic culture, art, and heritage in a contemporary way. Use intricate Islamic geometric patterns, elegant Arabic calligraphy-inspired fonts, subtle arabesque motifs, and a color palette dominated by deep greens, golds, whites, and accents of teal or navy to evoke tradition while feeling fresh and modern. Ensure smooth animations, parallax effects, high-resolution images, and elegant typography for an immersive user experience. Integrate the provided logo (Al-Rayyan Logo_1.png or the refined version from our conversation) prominently in the header. Also, incorporate elements from the attached flyer (image (1).jpg or similar), such as key visuals, text snippets, or design motifs, to maintain consistency. 
+
+Structure the page as follows:
+
+1. Header/Navigation Bar: Fixed top bar with the logo on the left, navigation menu on the right (Home, About Us, Services, Activities, Events, Contact). Make it elegant with subtle hover effects and a mobile-friendly hamburger menu.
+
+2. Hero Section: Full-width, high-impact banner with a background image or subtle pattern inspired by Islamic art (e.g., modernized mosque arches or calligraphy overlays). Overlay the school name "Al Rayyan Academy" in large, calligraphy-style font, with a tagline like "Rooted in Language. Guided by Faith. Nurturing Excellence in Arabic Language and Islamic Studies." Include a call-to-action button: "Enroll Now" or "Learn More."
+
+3. About/Mission Section: Describe the school's mission: "Al Rayyan Academy is dedicated to providing comprehensive education in Arabic language and Islamic studies, fostering a deep understanding of Islamic heritage while preparing students for the modern world." Use beautiful layouts with icons or images representing knowledge, faith, and culture (e.g., open Quran, Arabic script). Include a short paragraph on values like integrity, excellence, and community.
+
+4. Services Offered Section: List services in a grid or card layout with stunning visuals:
+Arabic Language Courses (beginner to advanced).
+Islamic Studies Programs (Quran recitation, Hadith, Fiqh).
+Cultural Workshops (calligraphy, history).
+Online and In-Person Classes.
+Each card should have an icon, brief description, and a "Details" button.
+
+Trailblazer Program:
+
+Contents:
+AI-Quran Memorization
+Al-Qaida Al-Noorania (القاعدة النورانية)
+Pillars of Islam
+Al-Seerah (The biography and life of Prophet Muhammad ﷺ)
+
+Target Audience:
+Age groups: 7–10, 11–16, Adults
+
+Duration: 
+9 weeks, 1.5 hours/week
+
+Schedule:
+It will be offered 4 times a year; Two times in the fall and two times in the Spring.
+
+Tuition: $250 per student
+
+5. Activities Section: Showcase school activities with a carousel or gallery: Quran memorization competitions, cultural festivals, field trips to Islamic centers, student projects. Use high-quality placeholder images (or integrate from the flyer) with captions and subtle animations.
+
+6. Upcoming Events Section: Display a list or calendar of events (e.g., "Open House: March 22, 2026"). Make it dynamic-looking with date badges and RSVP buttons. If possible, add a simple event feed placeholder.
+
+7. Contact Section: Include contact details: Email - alrayyanacademyofga@gmail.com; Phone +1-678-796-8244; Address (use placeholder like Georgia, USA). Add a fully functional Contact Us form with fields for Name, Email, Message, and a Submit button. Use form validation and integrate with a service like Formspree or similar for email submission (provide code for integration).
+
+8. About Us Section: Highlight that the Academy serves first‑ and second‑generation Arabs and Muslims in the United States - especially Gen Z and Gen Alpha - as well as non‑Arabs and non‑Muslims seeking a deeper understanding of the Arabic language and Islamic tradition. Our holistic, learner‑centered methodology integrates spiritual, cultural, and linguistic development into daily life, encouraging personal discovery, analytical thinking, and meaningful engagement while preserving the authenticity of the sacred texts and avoiding any implication of introducing new interpretations of the faith or alter the originality of Islamic pillars.
+Showcase the Founder and Lead Teacher, Ms. Reham Beshr, who is an educator of Egyptian origin with 25 years of experience teaching Arabic and Islamic Studies across the Greater Atlanta Area, certified in Al‑Qaida Al‑Nooraniya and holding a degree in Early Childhood Education, currently serving in one of Georgia’s largest county school systems.
+
+9. Footer: Include copyright ("© 2026 Al Rayyan Academy of GA"), social media links (placeholders for Instagram, Facebook, etc.), quick links to sections, and a small logo. Add a subtle Islamic pattern background.
+
+Ensure the page is SEO-optimized with meta tags, alt text for images, and fast-loading. Use modern web technologies like HTML5, CSS3 (with Flexbox/Grid), and JavaScript for interactivity (no heavy frameworks unless necessary; keep it lightweight). Provide the full code in a single HTML file with embedded CSS and JS, or separate files if using Replit/Claude. Make it accessible (ARIA labels, etc.) and include Google Fonts for elegant typography (e.g., something like Amiri for Arabic-inspired text).Finally, output the complete code ready for deployment.
