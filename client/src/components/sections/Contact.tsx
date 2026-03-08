@@ -30,14 +30,25 @@ export function Contact() {
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true);
-    // Simulate Formspree integration
+    
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      toast({
-        title: "Message Sent",
-        description: "Thank you for contacting us. We will get back to you soon.",
+      const response = await fetch("https://formspree.io/f/mpqywlyp", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(values)
       });
-      form.reset();
+
+      if (response.ok) {
+        toast({
+          title: "Message Sent",
+          description: "Thank you for contacting us. We will get back to you soon.",
+        });
+        form.reset();
+      } else {
+        throw new Error("Failed to send message");
+      }
     } catch (error) {
       toast({
         variant: "destructive",
