@@ -31,7 +31,8 @@ export function Hero() {
           </h1>
           
           <p className="text-lg md:text-2xl text-white/90 mb-10 max-w-2xl mx-auto font-light leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
-            Rooted in Language. Guided by Faith. Nurturing Excellence in Arabic Language and Islamic Studies.
+            Rooted in Language. Guided by Faith.<br />
+            Nurturing Excellence in Arabic Language and Islamic Studies.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-500">
