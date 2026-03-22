@@ -13,14 +13,14 @@ export function Events() {
     },
     {
       title: "Annual Quran Competition",
-      date: "October 15, 2026",
+      date: "October 25, 2026",
       time: "9:00 AM - 4:00 PM",
       location: "Al Rayyan Main Campus",
       type: "Competition"
     },
     {
       title: "Ramadan Prep Workshop",
-      date: "January 15, 2027",
+      date: "December 17, 2026",
       time: "after Dhuhr prayer",
       location: "Online via Zoom",
       type: "Workshop"
