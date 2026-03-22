@@ -32,7 +32,7 @@ export function Contact() {
     setIsSubmitting(true);
     
     try {
-      const response = await fetch("https://formspree.io/f/mpqywlyp", {
+      const response = await fetch("https://formspree.io/f/mpqygpzp", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -117,7 +117,7 @@ export function Contact() {
 
           {/* Contact Form */}
           <div className="bg-card rounded-3xl p-8 shadow-lg border border-border">
-            <h3 className="font-serif text-2xl font-bold mb-6 text-foreground">Send a Message</h3>
+            <h3 className="font-serif text-2xl font-bold mb-6 text-foreground uppercase">Contact Us</h3>
             
             <Form {...form}>
               <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
