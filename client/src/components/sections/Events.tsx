@@ -6,24 +6,24 @@ export function Events() {
   const upcomingEvents = [
     {
       title: "Spring Open House",
-      date: "March 22, 2026",
-      time: "10:00 AM - 2:00 PM",
+      date: "March 29, 2026",
+      time: "12:00 PM - 2:00 PM",
       location: "Al Rayyan Main Campus",
       type: "Community"
     },
     {
+      title: "Annual Quran Competition",
+      date: "October 15, 2026",
+      time: "9:00 AM - 4:00 PM",
+      location: "Al Rayyan Main Campus",
+      type: "Competition"
+    },
+    {
       title: "Ramadan Prep Workshop",
-      date: "April 5, 2026",
+      date: "January 15, 2027",
       time: "after Dhuhr prayer",
       location: "Online via Zoom",
       type: "Workshop"
-    },
-    {
-      title: "Annual Quran Competition",
-      date: "May 15, 2026",
-      time: "9:00 AM - 4:00 PM",
-      location: "Islamic Center Auditorium",
-      type: "Competition"
     }
   ];
 
