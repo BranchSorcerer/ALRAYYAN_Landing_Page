@@ -1,0 +1,54 @@
+
+> rest-express@1.0.0 dev:client
+> vite dev --port 5000
+
+[1G[0K
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v7.3.1[39m  [2mready in [0m[1m1682[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.31.72.226:[1m5000[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:41:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/sections/Services.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:41:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/sections/Services.tsx[22m [33m(x2)[39m
+[RUNTIME_ERROR]{"type":"runtime-error","timestamp":1774208479015,"name":"Error","message":"flyerImg is not defined","stack":"    at Services /home/runner/workspace/client/src/components/sections/Services.tsx:86:24\n\n\n\n\n\n\n\n\n","loc":{"line":86,"column":24,"file":"/home/runner/workspace/client/src/components/sections/Services.tsx"},"frame":"84 |                <div className=\"relative min-h-[300px] lg:min-h-full bg-white flex items-center justify-center p-8\">\n85 |                  <img \n86 |                    src={flyerImg} \n   |                         ^\n87 |                    alt=\"Trailblazer Program Flyer\" \n88 |                    className=\"max-w-full max-h-[500px] object-contain shadow-2xl rounded-lg border border-border\""}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m7:41:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/sections/Services.tsx[22m
