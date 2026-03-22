@@ -2,7 +2,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter }
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { BookA, BookOpenCheck, Users, GraduationCap, CheckCircle2 } from "lucide-react";
-import flyerImg from "@assets/Al_Rayyan_Flyer_1772937656876.jpg";
 
 export function Services() {
   const services = [
@@ -44,8 +43,8 @@ export function Services() {
         {/* Featured Program: Trailblazer */}
         <div className="mb-20">
           <div className="bg-primary rounded-3xl overflow-hidden shadow-xl text-white">
-            <div className="grid lg:grid-cols-2">
-              <div className="p-8 md:p-12 lg:p-16 flex flex-col justify-center">
+            <div className="grid">
+              <div className="p-8 md:p-12 lg:p-16 flex flex-col justify-center max-w-4xl mx-auto w-full">
                 <Badge className="bg-secondary text-secondary-foreground hover:bg-secondary w-fit mb-6 text-sm px-3 py-1">Featured Program</Badge>
                 <h3 className="font-serif text-3xl md:text-4xl font-bold mb-4">
                   Trailblazer Program
@@ -80,14 +79,6 @@ export function Services() {
                 <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold w-fit" asChild>
                   <a href="#contact">Register for Trailblazer</a>
                 </Button>
-              </div>
-              
-              <div className="relative min-h-[300px] lg:min-h-full bg-white flex items-center justify-center p-8">
-                <img 
-                  src={flyerImg} 
-                  alt="Trailblazer Program Flyer" 
-                  className="max-w-full max-h-[500px] object-contain shadow-2xl rounded-lg border border-border"
-                />
               </div>
             </div>
           </div>
